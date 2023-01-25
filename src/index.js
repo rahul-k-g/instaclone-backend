@@ -19,7 +19,7 @@ mongoose.connect(process.env.DATABASE_URL,{ useNewUrlParser: true, useUnifiedTop
 app.use(fileupload({useTempFiles:true}));
 const cors = require('cors');
 const corsOptions = {
-    origin: 'https://react-instaclone-project.onrender.com',
+    origin: 'https://insta-frontend-d1nm.onrender.com/',
     credentials: true,
     optionSuccessStatus: 200
 }
